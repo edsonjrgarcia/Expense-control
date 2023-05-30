@@ -1,0 +1,22 @@
+{
+    "trasactions" : [
+        {
+            "id": 4,
+            "description": "Development",
+            "type": "income",
+            "category": "sell",
+            "price": 14000,
+            "createdAt": "2023-05-30T16:58:25.457Z"
+
+        },
+        {
+            "id": 5,
+            "description": "Pizza",
+            "type": "outcome",
+            "category": "Food",
+            "price": 50,
+            "createdAt": "2023-05-30T16:50:25.457Z"
+
+        }
+    ]
+}
