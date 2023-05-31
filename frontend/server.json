@@ -26,6 +26,15 @@
             "price": 6000,
             "createdAt": "2023-05-31T12:00:25.457Z"
 
+        },
+        {
+            "id": 11,
+            "description": "Computer",
+            "type": "outcome",
+            "category": "Equipament",
+            "price": 5000,
+            "createdAt": "2023-05-31T21:25:36.959Z"
+
         }
     ]
 }
