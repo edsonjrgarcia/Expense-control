@@ -4,7 +4,7 @@
             "id": 4,
             "description": "Development",
             "type": "income",
-            "category": "sell",
+            "category": "Sell",
             "price": 14000,
             "createdAt": "2023-05-30T16:58:25.457Z"
 
@@ -16,6 +16,15 @@
             "category": "Food",
             "price": 50,
             "createdAt": "2023-05-30T16:50:25.457Z"
+
+        },
+        {
+            "id": 10,
+            "description": "Web page",
+            "type": "income",
+            "category": "Sell",
+            "price": 6000,
+            "createdAt": "2023-05-31T12:00:25.457Z"
 
         }
     ]
