@@ -15,12 +15,13 @@ export function SearchForm() {
     const { 
         register, 
         handleSubmit, 
-        formState: {isSubmitting}
+        formState: { isSubmitting }
     } = useForm<SearchFormInputs>({
         resolver: zodResolver(searchFormSchema),
     })
 
-    function handleSearchTransaction(data: SearchFormInputs) {
+async function handleSearchTransaction(data: SearchFormInputs) {
+        await new Promise(resolve => setTimeout(resolve, 3000))
         console.log(data)
     }
     return (
@@ -32,6 +33,7 @@ export function SearchForm() {
             />
             <button 
                 type="submit"
+                disabled={isSubmitting}
             >
                 <MagnifyingGlass size={20} />
                 Search
