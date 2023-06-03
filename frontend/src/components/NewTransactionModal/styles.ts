@@ -57,8 +57,13 @@ export const Content = styled(Dialog.Content)`
             background-color: ${props => props.theme['green-500']};
             color: ${props => props.theme['gray-100']};
             font-weight: bold;
+
+            &:disabled {
+                opacity: .5;
+                cursor: not-allowed;
+            }
             
-            &:hover {
+            &:not(:disabled):hover {
                 background-color: ${props => props.theme['green-700']};
                 transition: background-color .2s;
             }
@@ -92,7 +97,7 @@ export const TransactionTypeButton = styled(RadioGroup.Item)<TransactionTypeButt
 
     &[data-state='unchecked']:hover {
         background-color: ${props => props.theme['gray-600']};
-        trasition: background-color .2s;
+        transition: background-color .2s;
     }
 
     &[data-state='checked'] {
