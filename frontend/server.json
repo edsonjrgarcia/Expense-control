@@ -1,40 +1,60 @@
 {
-    "transactions" : [
-        {
-            "id": 4,
-            "description": "Development",
-            "type": "income",
-            "category": "Sell",
-            "price": 14000,
-            "createdAt": "2023-05-30T16:58:25.457Z"
-
-        },
-        {
-            "id": 5,
-            "description": "Pizza",
-            "type": "outcome",
-            "category": "Food",
-            "price": 50,
-            "createdAt": "2023-05-30T16:50:25.457Z"
-
-        },
-        {
-            "id": 10,
-            "description": "Web page",
-            "type": "income",
-            "category": "Sell",
-            "price": 6000,
-            "createdAt": "2023-05-31T12:00:25.457Z"
-
-        },
-        {
-            "id": 11,
-            "description": "Computer",
-            "type": "outcome",
-            "category": "Equipament",
-            "price": 5000,
-            "createdAt": "2023-05-31T21:25:36.959Z"
-
-        }
-    ]
+  "transactions": [
+    {
+      "id": 4,
+      "description": "Development",
+      "type": "income",
+      "category": "Sell",
+      "price": 14000,
+      "createdAt": "2023-05-30T16:58:25.457Z"
+    },
+    {
+      "id": 5,
+      "description": "Pizza",
+      "type": "outcome",
+      "category": "Food",
+      "price": 50,
+      "createdAt": "2023-05-30T16:50:25.457Z"
+    },
+    {
+      "id": 10,
+      "description": "Web page",
+      "type": "income",
+      "category": "Sell",
+      "price": 6000,
+      "createdAt": "2023-05-31T12:00:25.457Z"
+    },
+    {
+      "id": 11,
+      "description": "Computer",
+      "type": "outcome",
+      "category": "Equipament",
+      "price": 5000,
+      "createdAt": "2023-05-31T21:25:36.959Z"
+    },
+    {
+      "description": "Application",
+      "price": 15000,
+      "category": "Sell",
+      "type": "income",
+      "createdAt": "2023-06-04T15:43:24.376Z",
+      "id": 12
+    },
+    {
+      "description": "Application",
+      "price": 10000,
+      "category": "Sell",
+      "type": "income",
+      "createdAt": "2023-06-04T15:43:59.194Z",
+      "id": 13
+    },
+    {
+      "description": "Monitor",
+      "price": 1000,
+      "category": "Buy",
+      "type": "outcome",
+      "createdAt": "2023-06-04T15:45:51.048Z",
+      "id": 14
+    }
+  ]
 }
